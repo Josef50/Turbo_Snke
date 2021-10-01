@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-image: url(../Imagenes/instrucciones.png);
+  background-size: 100% 100vh;
+  background-repeat: no-repeat;
+	display: flex;
+	justify-content: center;
+  align-items: center;	
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.back{
+  width: 300px;
+	height: 0px;
+	display: flex;
+	justify-content: center;
+  align-items: right;		
+	margin-top: -290px;
+	margin-bottom: 1px;
+}
+.play{
+  width: 300px;
+	height: 0px;
+	display: flex;
+	justify-content: center;
+  align-items: right;		
+	margin-top: -290px;
+  margin-left: 900px;
+	margin-bottom: 1px;
+}
+
+.imgJuego2{
+    width: 300px;
+}
+
+.imgJuego2:hover{
+    width: 350px;
+}
+
+

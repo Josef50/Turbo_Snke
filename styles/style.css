@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+/*td {
+    font-size: 15px;
+    line-height: 20px;
+    padding: 0 20px;
+    text-align: justify;
+    vertical-align: down;
+    width: 50%;
+}*/
+
+body{
+    background-image: url(../Imagenes/Fondo2.png);
+    background-size: 100% 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 120vh;
+}
+
+.content{
+  width: 700px;
+  height: 50px;
+  display: flex;
+	justify-content: center;
+  align-items: left;		
+	margin-top: -40px;
+	margin-bottom: 1px;
+}
+.instructions{
+  width: 300px;
+	height: 0px;
+	display: flex;
+	justify-content: center;
+  align-items: right;		
+	margin-top: 400px;
+	margin-bottom: 1px;
+}
+.credits{
+  width: 300px;
+	height: 0px;
+	display: flex;
+	justify-content: center;
+  align-items: right;		
+	margin-top:  400px;
+	margin-bottom: 1px;
+}
+
+.imgJuego{
+    width: 300px;
+}
+
+.imgJuego:hover{
+    width: 350px;
+}
+
